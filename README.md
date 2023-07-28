@@ -1,7 +1,9 @@
 # AmongUs-Challenger-Map
 Better polus, Challenger Polus / Nuclear polus / Better Skeld / Challenger Skeld / Challenger Mirah
 
-CONFIG
+**CONFIG**
+
+*ChallengerLevel.Setting*
 
 polusID => 0-2 [Defaut 2] (0 - Normal, 1 - Better by BryBry, 2 - Challenger & Nuclear By Lunastellia)
 miraID => 0-1 [Defaut 1] (0 - Normal, 1 - Challenger By Lunastellia)
@@ -33,8 +35,12 @@ KeycodeDroneDown => [Defaut KeyCode.S] (Modify the Keybind for the drone)
 
 **IMPORTANT DATA**
 
+*ChallengerLevel.Data*
+
 BreakTime = false/True (stop all nucleartimer)
 ScreenColored = false/True (ignore Yellon screen during the alerte)
 BlockSab = false/True (block the sabotage)
 
-avoid using the other functions in the data or risk breaking the functioning of the mod
+- avoid using the other functions in the data or risk breaking the functioning of the mod
+
+- 
