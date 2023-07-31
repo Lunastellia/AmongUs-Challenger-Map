@@ -4,33 +4,33 @@ ChallengerLevel is a mod that allows adding maps to Among Us. The mod comes from
 
 ## Exclusive available maps:
 
-Challenger Polus / Polus Nuclear (version 2.0)
-Mira Challenger (version 2.1)
-Challenger Skeld (version 1.1)
+• Challenger Polus / Polus Nuclear (version 2.0)
+• Mira Challenger (version 2.1)
+• Challenger Skeld (version 1.1)
 
 ## Other available maps:
 
-Better Polus (By brybry)
-Better Skeld (By Dadoum)
+• Better Polus (By brybry)
+• Better Skeld (By Dadoum)
 
 ## Advise, Licence & Copyright
 
-The mod is not distributed as open source; it is protected by copyright (Oriana / OrianaGames.com) and a custom license. You can use the files as they are and combine them with other mods. However, any modification, reproduction, or commercial use is strictly prohibited. You must also retain the visible watermark in the game (information text under the "ping"). If you want to integrate the maps into your mods, you must add links to this repo and AmongUs Challenger as credits on your GitHub page, mentioning the author's name and the initial project as follows: "AmongUs Challenger - Maps Nuclear Polus & Challenger Mira by Lunastellia."
+-> The mod is not distributed as open source; it is protected by copyright (Oriana / OrianaGames.com) and a custom license. You can use the files as they are and combine them with other mods. However, any modification, reproduction, or commercial use is strictly prohibited. You must also retain the visible watermark in the game (information text under the "ping"). If you want to integrate the maps into your mods, you must add links to this repo and AmongUs Challenger as credits on your GitHub page, mentioning the author's name and the initial project as follows: "AmongUs Challenger - Maps Nuclear Polus & Challenger Mira by Lunastellia."
 
 ## Installation
 
-- We recommend using ModManager for installation, either combined with other mods or for a simple installation.
-- Installation without mod manager: Make sure you are using a version of the game similar and compatible with the version of the map you're using, download all the files and then copy/paste them into your Among Us game folder.
+-> We recommend using ModManager for installation, either combined with other mods or for a simple installation.
+-> Installation without mod manager: Make sure you are using a version of the game similar and compatible with the version of the map you're using, download all the files and then copy/paste them into your Among Us game folder.
 
 
 ## Information for Developers
 
-*-> If you edit the settings, you must patch them before launching the game. Once the game is launched, the map will be constructed directly based on the indicated values!
+*- If you edit the settings, you must patch them before launching the game. Once the game is launched, the map will be constructed directly based on the indicated values!
 Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update))]" and use this condition "if (AmongUsClient.Instance.GameState != InnerNetClient.GameStates.Started)" then link your settings to edit the different values, exemple "if (Setting_polusID == 1 && !polusID != 1) { polusID = 1; };". this way no matter how your settings work you should be able to link them to the ChallengerLevel settings*
 
-*-> Compatibility: The used RPCs (Remote Procedure Calls) are 230 to 234. don't use the same values ​​otherwise it won't work properly*
+*- Compatibility: The used RPCs (Remote Procedure Calls) are 230 to 234. don't use the same values ​​otherwise it won't work properly*
 
-**- Way for edit maps settings : "ChallengerLevel.Setting"**
+**-> Way for edit maps settings : "ChallengerLevel.Setting"**
 
 **Map Selection Settings**
 (float) polusID => 0-2 [Defaut 2] (0 - Normal, 1 - Better by BryBry, 2 - Challenger & Nuclear By Lunastellia)
@@ -59,7 +59,7 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 (Keycode) KeycodeDroneUp => [Defaut KeyCode.W] (Modify the Keybind for the drone)
 (Keycode) KeycodeDroneDown => [Defaut KeyCode.S] (Modify the Keybind for the drone)
 
-**- Way for important data : "ChallengerLevel.Data"***
+**-> Way for important data : "ChallengerLevel.Data"***
 *(You can use the following values to make minor internal modifications, but be cautious of potential conflicts)*
 
 (bool) BreakTime => true/false [Defaut false] (Use this if you want to temporarily stop the timer, affects both the timer and the alert)
@@ -85,7 +85,7 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 (bool) SetNuclearTimeOn => (allows to decrease the time on the timer)
 (bool) SetNuclearSabTimeOn => (allows to decrease the time on the Alerte timer)
 
-*avoid using the other functions in the data or risk breaking the functioning of the mod*
+-> avoid using the other functions in the data or risk breaking the functioning of the mod
 
 
 
