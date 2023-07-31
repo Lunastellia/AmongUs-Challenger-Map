@@ -4,9 +4,9 @@
 
 ## Exclusive available maps:
 
-• Challenger Polus / Polus Nuclear (version 2.0)
+• Challenger Polus / Polus Nuclear (version 2.0) 
 
-• Mira Challenger (version 2.1)
+• Mira Challenger (version 2.1) [is not compatible with Hide and seek mode for now]
 
 • Challenger Skeld (version 1.1)
 
