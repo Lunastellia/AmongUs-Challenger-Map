@@ -122,6 +122,7 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 
 • (float) SafeTimer => (allows you to know if the player is in a safe zone or in danger, if the value is greater than 0 the player is safe, otherwise he will be killed at the end of the alert)
 
+• (float) SabotageTimer => (allows to retrieve the value of the sabotage timer after map destroyed)
    
 • (bool) StartNuclear =>  (Execute once at the end of the alert to exit the loop)
 
@@ -132,6 +133,9 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 • (bool) SetNuclearTimeOn => (allows to decrease the time on the timer)
 
 • (bool) SetNuclearSabTimeOn => (allows to decrease the time on the Alerte timer)
+
+• (bool) ResetSabotagecooldown => (allows to decrease the time on the Sabotage Timer after map destroyed)
+
 
 
 *avoid using the other functions in the data or risk breaking the functioning of the mod*
