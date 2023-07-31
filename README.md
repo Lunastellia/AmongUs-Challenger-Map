@@ -20,7 +20,8 @@
 
 ## Advise, Licence & Copyright
 
--> The mod is not distributed as open source; it is protected by copyright (Oriana / OrianaGames.com) and a custom license. You can use the files as they are and combine them with other mods. However, any modification, reproduction, or commercial use is strictly prohibited. You must also retain the visible watermark in the game (information text under the "ping"). If you want to integrate the maps into your mods, you must add links to this repo and AmongUs Challenger as credits on your GitHub page, mentioning the author's name and the initial project as follows: "AmongUs Challenger - Maps Nuclear Polus & Challenger Mira by Lunastellia."
+-> The mod is not distributed as open source; it is protected by copyright (Oriana / OrianaGames.com) and a custom license. You can use the files as they are and combine them with other mods. However, any modification, reproduction, or commercial use is strictly prohibited. You must also retain the visible watermark in the game (information text under the "ping"). If you want to integrate the maps into your mods, you must add links to this repo and AmongUs Challenger as credits on your GitHub page, mentioning the author's name and the initial project as follows: "AmongUs Challenger - Maps Nuclear Polus & Challenger Mira by Lunastellia." (https://github.com/Lunastellia/Challenger-Among-Us)
+
 
 ## Installation
 
@@ -133,7 +134,26 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 • (bool) SetNuclearSabTimeOn => (allows to decrease the time on the Alerte timer)
 
 
-•  *avoid using the other functions in the data or risk breaking the functioning of the mod*
+*avoid using the other functions in the data or risk breaking the functioning of the mod*
+
+## ModPolicy
+
+### Innersloth LLC
+
+This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.
+
+More informatios = https://www.innersloth.com/modpolicy.php
+
+### Oriana® 
+
+Several parts of the source code of this Mod are subject to copyright, any reproduction or misuse without the prior consent of these owners is prohibited.
+the protected content belongs to Oriana®. 
 
 
+## Credits :
 
+*AmongUs Challenger => https://github.com/Lunastellia/Challenger-Among-Us
+*BepInEx => https://github.com/BepInEx
+*Reactor (Reactor.dll) => Reactor https://github.com/NuclearPowered/Reactor
+*BryBry16 (BetterPolus => source code) https://github.com/Brybry16/BetterPolus
+*Dadoum (BetterSkeld => source code) https://github.com/Dadoum/BetterSkeld
