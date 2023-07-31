@@ -1,6 +1,6 @@
 # AmongUs-Challenger-Map
 
-ChallengerLevel is a mod that allows adding maps to Among Us. The mod comes from AmongUs Challenger.
+• ChallengerLevel is a mod that allows adding maps to Among Us. The mod comes from AmongUs Challenger.
 
 ## Exclusive available maps:
 
