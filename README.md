@@ -55,13 +55,13 @@ Exemple : patch in " [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update)
 
 • (float) polusNuclear_SpawnChance => 0-100 [Defaut 100] (Chance to spawn nuclear polus in Challenger polus map)
 
-• (float) polusNuclear_Timer => 60-240 [Defaut 90] (Nuclear timer)
+• (float) polusNuclear_Timer => 60-240 [Defaut 60] (Nuclear timer)
 
-• (float) polusNuclear_RandomTimer => 60-240 [Defaut 90] (Additional random range for Nuclear timer)
+• (float) polusNuclear_RandomTimer => 60-240 [Defaut 120] (Additional random range for Nuclear timer)
 
 • (float) polusNuclear_AlertTimer => 10-40 [Defaut 25] (Alerte Nuclear duration)
 
-• (float) polusNuclear_TimerVisibility => 0-2 (0 - Timer hide for everyone, 1 - everyone can show Nuclear the  timer, 2 - Only impostors can show the timer)
+• (float) polusNuclear_TimerVisibility => 0-2 [Defaut 2] (0 - Timer hide for everyone, 1 - everyone can show Nuclear the  timer, 2 - Only impostors can show the timer)
 
 • (bool) polusNuclear_RandomSide => true/false [Defaut True] (if true, you can select "polusNuclear_RamdomLevel" for change difficulty mod)
 
