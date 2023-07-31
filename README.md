@@ -152,8 +152,8 @@ the protected content belongs to Oriana®.
 
 ## Credits :
 
-*AmongUs Challenger => https://github.com/Lunastellia/Challenger-Among-Us
-*BepInEx => https://github.com/BepInEx
-*Reactor (Reactor.dll) => Reactor https://github.com/NuclearPowered/Reactor
-*BryBry16 (BetterPolus => source code) https://github.com/Brybry16/BetterPolus
-*Dadoum (BetterSkeld => source code) https://github.com/Dadoum/BetterSkeld
+• AmongUs Challenger => https://github.com/Lunastellia/Challenger-Among-Us
+• BepInEx => https://github.com/BepInEx
+• Reactor (Reactor.dll) => Reactor https://github.com/NuclearPowered/Reactor
+• BryBry16 (BetterPolus => source code) https://github.com/Brybry16/BetterPolus
+• Dadoum (BetterSkeld => source code) https://github.com/Dadoum/BetterSkeld
