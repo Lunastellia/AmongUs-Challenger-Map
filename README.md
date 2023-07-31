@@ -1,5 +1,28 @@
 # AmongUs-Challenger-Map
-Better polus, Challenger Polus / Nuclear polus / Better Skeld / Challenger Skeld / Challenger Mirah
+
+ChallengerLevel is a mod that allows adding several maps to Among Us. The mod comes from AmongUs Challenger.
+
+###Exclusive available maps:
+
+Challenger Polus / Polus Nuclear (version 2.0)
+Mira Challenger (version 2.1)
+Challenger Skeld (version 1.1)
+Other available maps:
+
+Better Polus (By brybry)
+Better Skeld (By Dadoum)
+Warning
+
+The mod is not distributed as open source; it is protected by copyright and a custom license. You can use the files as they are and combine them with other mods. However, any modification, reproduction, or commercial use is strictly prohibited. You must also retain the visible watermark in the game (information text under the "ping"). If you want to integrate the maps into your mods, you must add links to this repo and AmongUs Challenger as credits on your GitHub page, mentioning the author's name and the initial project as follows: "AmongUs Challenger - Maps Nuclear Polus & Challenger Mira by Lunastellia."
+
+Installation
+
+We recommend using ModManager for installation, either combined with other mods or for a simple installation.
+Make sure you are using a version of the game similar and compatible with the version of the map you're using.
+Installation without mod manager: Download all the files and then copy/paste them into your Among Us game folder.
+Information for Developers
+
+Compatibility: The used RPCs (Remote Procedure Calls) are 230 to 235.
 
 **CONFIG**
 
