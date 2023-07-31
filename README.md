@@ -2,7 +2,7 @@
 
 ChallengerLevel is a mod that allows adding several maps to Among Us. The mod comes from AmongUs Challenger.
 
-### Exclusive available maps:
+## Exclusive available maps:
 
 Challenger Polus / Polus Nuclear (version 2.0)
 Mira Challenger (version 2.1)
